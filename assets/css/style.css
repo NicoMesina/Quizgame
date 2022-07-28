@@ -1,0 +1,23 @@
+/* Quizgame */
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Cormorant+Garamond:wght@500&family=Laila&family=Source+Serif+Pro:ital,wght@1,300&family=Tiro+Tamil&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: #b8c6db;
+      background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      margin: 0;
+    }
+   
+  
+  
+  
