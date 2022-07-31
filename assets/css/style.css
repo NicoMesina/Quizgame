@@ -3,16 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Cormorant+Garamond:wght@500&family=Laila&family=Source+Serif+Pro:ital,wght@1,300&family=Tiro+Tamil&family=Yanone+Kaffeesatz:wght@300&display=swap');
 
 *{
-    box-sizing: border-box;
+    box-sizing:border-box
   }
   
   body{
-      background-color:white;
-      background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+      background-color:rgb(252, 238, 133);
+      background-image:url(../images/pngtree-comic-speech-bubbles-with-text-quiz-png-image_4729130.png);
+      background-position: center;
+      width: 95%;
+      height:100vh;
       font-family: 'Times New Roman', Times, serif;
       justify-content:center;
       align-items:center;
-      height:100vh;
       display:flex;
       margin:0;
       overflow: hidden;
@@ -20,8 +22,11 @@
     }
    
     .quiz-container{
-      background-color:white;
-      border-radius: 10px;
+      background-color:rgb(252, 238, 133);
+      background-position:center;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100px;
       overflow:hidden;
       width:900px;
       box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
@@ -54,7 +59,7 @@
     button{
 
       padding:1.3rem;
-      background-color:rgb(111, 192, 243);
+      background-color:#004997;
       width: 100%;
       display: block;
       font-size: 1.1rem;
@@ -72,7 +77,7 @@
     }
     button:focus{
       outline: none;
-      background-color: #44b927;
+      background-color: #04adc4;
     }
   
   
