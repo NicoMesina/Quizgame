@@ -154,3 +154,41 @@ submitBtn.addEventListener('click', () => {
     }
 })
 
+/* Init variables */
+
+let scorecontainer = 0;
+let scoreContainer, buttonContainer;
+
+/* Function that updates the score variable and the HTML element value */
+const updateScore = newScore => {
+  if(isNaN(newScore)) return;
+  score = newScore;
+  scoreContainer.innerHTML = score;
+}
+
+/* Function that increments the score (part of a game mechanic) */
+
+const incrementScore = () => {
+  updateScore(score + 1);
+}
+
+/* Function that submits the score */
+
+const submitScore = () => alert("Submitting Score: "+score);
+
+/* Function that ends the game */
+
+const gameOver = () => submitScore();
+
+
+/* Init function, selects elements and sets up the game */
+
+const init = () => {
+  scoreContainer = document.getElementById("js-score");
+  newGame();
+}
+
+/* Calls the init function */
+
+init();
+
