@@ -10,14 +10,13 @@
       background-color:rgb(252, 238, 133);
       background-image:url(../images/pngtree-comic-speech-bubbles-with-text-quiz-png-image_4729130.png);
       background-position: center;
-      width: 95%;
       height:100vh;
       font-family: 'Times New Roman', Times, serif;
       justify-content:center;
       align-items:center;
       display:flex;
-      margin:0;
       overflow: hidden;
+      
       
     }
    
@@ -30,11 +29,20 @@
       overflow:hidden;
       width:700px;
       border: 2px solid rgb(23, 245, 245);
+      overflow: hidden;
+      display: inline-block;
       
-    }
+       }
+
+       .center {
+        display: flex;
+        justify-content: center;
+        }
+  
+  
     
     .quiz-header{
-      padding: 4rem;
+      padding: 5rem;
     }
     
     h2{
