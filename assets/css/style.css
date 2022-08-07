@@ -27,7 +27,7 @@
       align-items: center;
       border-radius: 100px;
       overflow:hidden;
-      width:700px;
+      width:650px;
       border: 2px solid rgb(23, 245, 245);
       overflow: hidden;
       display: inline-block;
@@ -64,7 +64,7 @@
     ul li label{
       cursor: pointer;
     }
-    button{
+    input{
 
       padding:1.3rem;
       background-color:rgb(23, 245, 245);
@@ -77,13 +77,18 @@
       font-family: inherit;
       cursor: pointer;
       font-size: 1.1rem;
+      text-align: center;
    
-     
-    }
-    button:hover{
+   }
+   
+
+  
+
+
+    input:hover{
       background-color: #04adc4;
     }
-    button:focus{
+    input:focus{
       outline: none;
       background-color: #04adc4;
     }

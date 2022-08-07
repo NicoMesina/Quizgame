@@ -104,6 +104,8 @@ const submitBtn = document.getElementById('submit')
 let currentQuiz = 0
 let score = 0
 
+let currentAnswer;
+
 loadQuiz()
 
 function loadQuiz() {
@@ -117,6 +119,14 @@ function loadQuiz() {
     b_text.innerText = currentQuizData.b
     c_text.innerText = currentQuizData.c
     d_text.innerText = currentQuizData.d
+
+    a_text.previousElementSibling.value = currentQuizData.a 
+    b_text.previousElementSibling.value = currentQuizData.b 
+    c_text.previousElementSibling.value = currentQuizData.c 
+    d_text.previousElementSibling.value = currentQuizData.d
+
+    currentAnswer = currentQuizData["correct"]
+
 }
 
 function deselectAnswers() {
@@ -133,11 +143,14 @@ function getSelected() {
     return answer
 }
 
-submitBtn.addEventListener('click', () => {
-    const answer = getSelected()
-    if(answer) {
-       if(answer === quizData[currentQuiz].correct) {
+document.querySelector("#form").addEventListener('submit' , (event) => { 
+    event.preventDefault();
+
+    const userAnswer = event.target.answer.value;
+
+    if(userAnswer === quizData[currentQuiz][currentAnswer]) {
            score++
+           document.querySelector("#js-score").innerText = score;
        }
 
        currentQuiz++
@@ -152,7 +165,7 @@ submitBtn.addEventListener('click', () => {
            `
        }
     }
-})
+)
 
 /* Init variables */
 
@@ -185,7 +198,7 @@ const gameOver = () => submitScore();
 
 const init = () => {
   scoreContainer = document.getElementById("js-score");
-  newGame();
+//   newGame();
 }
 
 /* Calls the init function */
