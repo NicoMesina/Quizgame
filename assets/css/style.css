@@ -23,14 +23,12 @@
     .quiz-container{
       background-color:rgb(252, 238, 133);
       background-position:center;
-      justify-content: center;
-      align-items: center;
       border-radius: 100px;
       overflow:hidden;
       width:650px;
       border: 2px solid rgb(23, 245, 245);
       overflow: hidden;
-      display: inline-block;
+      display:inline-flexbox;
       
        }
 
@@ -42,7 +40,7 @@
   
     
     .quiz-header{
-      padding: 5rem;
+      padding: 3rem;
     }
     
     h2{
@@ -59,24 +57,22 @@
     }
     ul li{
       font-size: 1.2rem;
-      margin: 1rem 0;
+      margin:0%;
     }
     ul li label{
       cursor: pointer;
     }
     input{
 
-      padding:1.3rem;
+      padding:1.1rem;
       background-color:rgb(23, 245, 245);
       width: 100%;
       display: block;
-      font-size: 1.1rem;
+      font-size: 1.0rem;
       color:white;
-      font-size: 1.1rem;
       border: none;
       font-family: inherit;
       cursor: pointer;
-      font-size: 1.1rem;
       text-align: center;
    
    }
@@ -99,7 +95,7 @@
   }
   
   .title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
       text-align: center;
   }
   
