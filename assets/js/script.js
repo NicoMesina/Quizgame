@@ -17,45 +17,45 @@ const quizData = [
     },
     {
         question: "Which planet has the most gravity?",
-        a: "saturn",
-        b: "jupiter",
-        c: "mercury",
-        d: "earth",
+        a: "Saturn",
+        b: "Jupiter",
+        c: "Mercury",
+        d: "Earth",
         correct: "b",
     },
     {
         question: "How do elephants greet each other?",
-        a: "entwining their trunks",
-        b: "swatting each other with their tails",
-        c: "running in circles",
-        d: "butting heads",
+        a: "Entwining their trunks",
+        b: "Swatting each other with their tails",
+        c: "Running in circles",
+        d: "Butting heads",
         correct: "a",
     },
 
     {
         question: "What is the national dish of Spain?",
-        a: "paella",
-        b: "tortilla",
-        c: "churros",
-        d: "papas",
+        a: "Paella",
+        b: "Tortilla",
+        c: "Churros",
+        d: "Papas",
         correct: "a",
     },
 
     {
         question: "What is Mars’s nickname?",
-        a: "the red planet",
-        b: "the dusty planet",
-        c: "the hot planet",
-        d: "the dry planet",
+        a: "The red planet",
+        b: "The dusty planet",
+        c: "The hot planet",
+        d: "The dry planet",
         correct: "a",
     },
 
     {
         question: "About how long would it take to travel to Mars?",
-        a: "a month",
-        b: "eight months",
-        c: "a week",
-        d: "two years",
+        a: "A month",
+        b: "Eight months",
+        c: "A week",
+        d: "Two years",
         correct: "b",
     },
 
@@ -70,10 +70,10 @@ const quizData = [
 
     {
         question: "Your heart is the size of:",
-        a: "a marble",
-        b: "a walnut",
-        c: "a fist",
-        d: "a watermelon",
+        a: "A marble",
+        b: "A walnut",
+        c: "A fist",
+        d: "A watermelon",
         correct: "c",
     },
 
@@ -189,19 +189,5 @@ const incrementScore = () => {
 
 const submitScore = () => alert("Submitting Score: "+score);
 
-/* Function that ends the game */
 
-const gameOver = () => submitScore();
-
-
-/* Init function, selects elements and sets up the game */
-
-const init = () => {
-  scoreContainer = document.getElementById("js-score");
-//   newGame();
-}
-
-/* Calls the init function */
-
-init();
 
