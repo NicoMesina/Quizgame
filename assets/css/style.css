@@ -2,157 +2,110 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Cormorant+Garamond:wght@500&family=Laila&family=Source+Serif+Pro:ital,wght@1,300&family=Tiro+Tamil&family=Yanone+Kaffeesatz:wght@300&display=swap');
 
-*{
-    box-sizing:border-box
-  }
-  
-  body{
-      background-color:rgb(252, 238, 133);
-      background-image:url(../images/pngtree-comic-speech-bubbles-with-text-quiz-png-image_4729130.png);
-      background-position: center;
-      height:100vh;
-      font-family: 'Times New Roman', Times, serif;
-      justify-content:center;
-      align-items:center;
-      display:flex;
-      overflow: hidden;
-      
-      
-    }
-   
-    .quiz-container{
-      background-color:rgb(252, 238, 133);
-      background-position:center;
-      border-radius: 100px;
-      overflow:hidden;
-      width:650px;
-      border: 2px solid rgb(23, 245, 245);
-      overflow: hidden;
-      display:inline-flexbox;
-      
-       }
+* {
+  box-sizing: border-box
+}
 
-       .center {
-        display: flex;
-        justify-content: center;
-        }
-  
-  
-    
-    .quiz-header{
-      padding: 3rem;
-    }
-    
-    h2{
-      
-      margin: 0%;
-      padding: 1rem;
-      text-align: center;
-     
-    }
-    
-    ul{
-      list-style-type: none;
-      padding: 0;
-    }
-    ul li{
-      font-size: 1.2rem;
-      margin:0%;
-    }
-    ul li label{
-      cursor: pointer;
-    }
-    input{
-
-      padding:1.1rem;
-      background-color:rgb(23, 245, 245);
-      width: 100%;
-      display: block;
-      font-size: 1.0rem;
-      color:white;
-      border: none;
-      font-family: inherit;
-      cursor: pointer;
-      text-align: center;
-   
-   }
-   
-
-  
+body {
+  background-color: rgb(252, 238, 133);
+  background-image: url(../images/pngtree-comic-speech-bubbles-with-text-quiz-png-image_4729130.png);
+  background-position: center;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
 
 
-    input:hover{
-      background-color: #04adc4;
-    }
-    input:focus{
-      outline: none;
-      background-color: #04adc4;
-    }
+}
 
-    .score {
-      font-size: 3rem;
-    text-align: center;
-  }
-  
-  .title {
-    font-size: 1.3rem;
-      text-align: center;
-  }
-  
-  * {box-sizing:border-box}
+.quiz-container {
+  background-color: rgb(252, 238, 133);
+  background-position: center;
+  border-radius: 100px;
+  overflow: hidden;
+  width: 650px;
+  border: 2px solid rgb(23, 245, 245);
+  overflow: hidden;
+  display: inline-flexbox;
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
 
 
-  input[type=text], input[type=password] {
-  width: 50%;
-  padding: 10px;
-  margin: 3px;
-  display:inline-block;
+
+.quiz-header {
+  padding: 3rem;
+}
+
+h2 {
+
+  margin: 0%;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 0%;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+input {
+
+  padding: 1.1rem;
+  background-color: rgb(23, 245, 245);
+  width: 100%;
+  display: block;
+  font-size: 1.0rem;
+  color: white;
   border: none;
-   background: #f1f1f1;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: center;
+
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
+
+input:hover {
+  background-color: #04adc4;
+}
+
+input:focus {
   outline: none;
+  background-color: #04adc4;
 }
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 10px;
+.score {
+  font-size: 3rem;
+  text-align: center;
 }
 
+.title {
+  font-size: 1.3rem;
+  text-align: center;
+}
 
 button {
   background-color: #04AA6D;
   color: white;
-  padding: 8px 8px;
-  margin: 5px 0;
+  padding: 14px 20px;
+  margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
 }
-
-button:hover {
-  opacity:1;
-}
-
-
-
- .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 3px;
-}
-
-/* Clear floats */
-.clearfix::after {
- 
-  clear: both;
-  display: table;
-}
-
