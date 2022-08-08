@@ -24,11 +24,11 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "How do elephants greet each other?",
-        a: "Entwining their trunks",
-        b: "Swatting each other",
-        c: "Running in circles",
-        d: "Butting heads",
+        question: "Which is the fastest land animal?",
+        a: "Cheetah",
+        b: "Lions",
+        c: "Elephants",
+        d: "Tigers",
         correct: "a",
     },
 
