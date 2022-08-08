@@ -109,3 +109,30 @@ button {
   cursor: pointer;
   width: 100%;
 }
+
+form {
+  width: 200px;
+  background-color:rgb(252, 238, 133);
+  text-align: left;
+  padding: 5px;
+}
+
+input, textarea {
+  padding: 5px;  
+  margin: 6px 6px 6px 0;
+}
+
+input[type=submit] {
+  background-color: rgb(23, 245, 245);
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color:rgb(23, 245, 245);
+  color: lightblue;
+}
+
