@@ -65,7 +65,7 @@ ul li label {
   cursor: pointer;
 }
 
-input {
+.submit-btn {
 
   padding: 1.1rem;
   background-color: rgb(23, 245, 245);
