@@ -26,7 +26,7 @@ const quizData = [
     {
         question: "How do elephants greet each other?",
         a: "Entwining their trunks",
-        b: "Swatting each other with their tails",
+        b: "Swatting each other",
         c: "Running in circles",
         d: "Butting heads",
         correct: "a",
