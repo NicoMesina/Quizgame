@@ -77,7 +77,7 @@ The background image used is a quiz image found on google with copy rights permi
 
 ![(#image)!](/assets/images/screenshot2%20feedback.png "(#image)")
 
-![(#image)!](/assets/images/signupform.png "(#image)")
+![(#image)!](/assets/images/signupform2.png "(#image)")
 
 **Technologies**
 
