@@ -75,5 +75,130 @@ The background image used is a quiz image found on google with copy rights permi
 
 ![(#image)!](/assets/images/screenshot1.png "(#image)")
 
+![(#image)!](/assets/images/screenshot2%20feedback.png "(#image)")
+
+![(#image)!](/assets/images/screenshot%20signup.png "(#image)")
+
+**Technologies**
+
+
+-   This quiz game was build using HTML, CSS, and JavaScript. 
+
+
+ [Google Fonts](https://fonts.google.com/)
+
+-   Google fonts are used throughout the project to import different fonts on the page to make it standout and more eye catchy for the user. The main font used is ital@1&family. 
+
+   [GitHub](https://github.com/)
+
+-   GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+
+   [Git](https://git-scm.com/)
+
+-   Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+
+  [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+
+-   Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+
+   [Techsini](http://techsini.com/multi-mockup/index.php)
+
+-   tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README
+
+  [placehold.it](https://placehold.it/)
+
+-   placehold.it was used to display the colours shown in the Color Scheme section.
+
+----------
+
+**Testing**
+
+Testing was very important as we should see if the viewer will be able to comfortably see the website on other devices such as iPads and mobile phones.
+
+I used testing methods by pressing inspect and using dimensions responsive, I have also tried it as iPhone devices etc.
+
+For small screens sizes 800px and down.
+
+**Smaller device such as phones:**
+
+![(#image)!](/assets/images/Screenshot%20mobile%20devices.png "(#image)")
+
+
+**Testing feature: Quiz container**
+
+Making sure the submit button is clickable, making sure that the scoreboard shows the score and in the end of the game the user can see "try again button". I have tested this out by clicking and playing around with the game making sure is all working. 
+
+**How did I check and the result:**
+
+I played the game several times to see the final result. All worked well. 
+
+**Testing feature: Feedback**
+
+Making sure that the user can type the name and email in the little box with an comment as a feedback and followed by that a submit button that is clickable and easy to click.
+
+**How did I check and the result:**
+
+I filled the form out myself, and everything ran smooth. Submit button is to be clicked. 
+
+**Testing feature: SignUp**
+
+Making sure that the form is big enough, buttons are clickable and that the user can have the option of remember me so they can easily log in the next time. 
+
+**How did I check and the result:**
+
+I filled out the form, clicked all buttons inculding "remember me" all worked perfectly fine. 
+
+
+**How to Run this Project in your Browser**
+
+1.  Install the [Google Chrome](https://www.google.co.uk/chrome/) or [Firefox](https://www.mozilla.org/en-GB/exp/firefox/new/) browser.
+2.  Install the applicable [GitPod](https://www.gitpod.io/docs/browser-extension/) Browser Extensions for your chosen browser.
+3.  Create a [GitHub](https://github.com/join) account.
+4.  Log in to [Gitpod](https://gitpod.io/login/) using your GitHub account.
+5.  Click on YogaLife _GitHub Repository._
+6.  Open the repository in Gitpod:
+
+-   Click the green "Gitpod" icon at the top of the Repository
+
+8.  A new workspace will open with the current state of the master branch. Any changes made to the master branch after this point will not be automatically updated in your Gitpod Workspace.
+
+**Cloning the Repository**
+
+1.  Click on YogaLife _GitHub Repository._
+2.  Click the "Code" dropdown box above the repository's file explorer.
+3.  Under the "Clone" heading, click the "HTTPS" sub-heading.
+4.  Click the clipboard icon, or manually copy the text presented:
+5.  https://github.com/NicoMesina/Quizgame
+6.  Open your preferred IDE (VSCode, Atom, PyCharm, etc).
+7.  Ensure your IDE has support for Git, or has the relevant Git extension.
+8.  Open the terminal, and create a directory where you would like the Repository to be stored.
+9.  Type git clone and paste the previously copied text https://github.com/NicoMesina/Quizgame and press enter.
+10.  The Repository will then be cloned to your selected directory.
+
+**Manually Downloading the Repository**
+
+1.  Click on YogaLife _GitHub Repository._
+2.  Click the "Code" dropdown box above the repository's file explorer.
+3.  Click the "Download ZIP" option; this will download a copy of the selected branch's repository as a zip file.
+4.  Locate the ZIP file downloaded to your computer, and extract the ZIP to a designated folder which you would like the repository to be stored.
+
+----------
+
+**Credits**
+
+**Content**
+
+-   All ideas including fonts, layouts, structure, design, and every detail were designed by me.
+
+**Media**
+
+-   All Photographs were sourced from google with copy rights permission.
+
+**Link to the website:**
+
+
+
+
+
 
 
