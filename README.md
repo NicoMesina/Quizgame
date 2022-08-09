@@ -121,7 +121,7 @@ For small screens sizes 800px and down.
 
 **Smaller device such as phones:**
 
-![(#image)!](/assets/images/Screenshot%20mobile%20devices.png "(#image)")
+![(#image)!](/assets/images/mobile%20devices.png "(#image)")
 
 
 **Testing feature: Quiz container**
