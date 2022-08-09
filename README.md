@@ -73,7 +73,7 @@ The background image used is a quiz image found on google with copy rights permi
 
 - Look & feel 
 
-![image)!](../Quizgame/assets/images/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg) 
+![(#image)!](/assets/images/screenshot1.png "(#image)")
 
 
 
