@@ -1,108 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+**Purpose**
 
-Welcome Nico Mesina,
+Hi everyone, I hope you are having a wonderful day today. For this project I have created a nice simple fun quiz for any type of user and the main purpose and goal here is to provide a challenging quiz to entertain online users. There are 10 different questions and the questions are based on random things just as I thought its more fun than just keeping it as the same subject. The purpose of this quiz is to bring fun, joy, and overall, a good quiz experience. As you will notice this quiz has a bright blue colour that really stands out and a background of quiz stars to catch users attention as much as possible. In most cases quiz games are meant to bring excitement and some type of competition to see who got more answers correct or less and therefore I also have introduced a scoreboard which I thought it will bring more excitement to the game. The main purpose of this game is as followed, 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Fun and joyful competition 
+Eye catching experience 
+Scoreboard to make it more interesting 
+Menu navigation bar that allows the user to leave a feed back for a better improvement and also a signup form where the user can always come back as a user and play new quiz games that will be available in near future. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+**Challenges faced:** 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This has been a project full of emotions considering that I am a complete beginner at this. I have spent hours and hours and I am very thankful for the experience. JavaScript was defiantly much tougher than expected but to see the final result was a great joy for me. My biggest challenge was the quiz container itself, the scoreboard, and even the navigation bar. It all took time, to make sure its all functioning the correct way for the user. 
 
-`python3 -m http.server`
+**Quiz container:** 
 
-A blue button should appear to click: _Make Public_,
+The quiz container itself has a light blue margin to give catchy attention for the user while playing the quiz. The main fond is “Font-family times new roman”. Nice bold writing so it stands out for the user while reading the question. 
 
-Another blue button should appear to click: _Open Browser_.
+**Background:** 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The background of this quiz is full of positive energy in my opinion as it gives catchy attention thanks to the stars and blue colours mixed with some type of orange. It’s an image already containing the quiz stars. 
 
-A blue button should appear to click: _Make Public_,
+**Scoreboard:** 
 
-Another blue button should appear to click: _Open Browser_.
+The scoreboard was one of the most important parts as it keeps the user entertained and focused on the game itself. I wanted this score board to be simple and straight to the point giving the user the score so they can see how many questions they have answered correctly. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Menu navigation bar:** 
 
-To log into the Heroku toolbelt CLI:
+The menu navigation bar was an important aspect for this project as I thought it’s very important for the user to leave a feedback information so that way I can continue improving. Also, we have a signup page that allows the user to become a user and easily access the page as a user and play new quizzes available in the near future. You might notice that the feedback form and the signup form is not placed in the centre of the page, and to be honest I found it stylish in a way to have it the way it is. I thought both forms are looking eye catchy on the top left side of the page with correct set of margins and padding that makes it look not too big or too small. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Submit button:** 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The submit button has the colour of rgb 23, 245, 245, it’s a light blue colour that almost gives the impression of a click me now to see the answer in a positive way. I did not want the user to feel negative during the game and that was the reason for this colour. In many cases users quit as soon as they see red flags everywhere and, in this case, I did not use any red negative flags for this reason. Let’s keep the user happy and entertained in a chilled positive matter. Thjis was my goal for this submit button. 
 
-------
+ **User Goal**
 
-## Release History
+ - Simple to use and keep entertained 
+ - Able to see the correct answers 
+ - Easy to click and play 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  **Business Goal**
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- Giving interest. 
+- Engage the viewer.
+- Have the viewer coming back to play the game 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**First Time Visitor Goals**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- As a First Time user, I want them to feel free and happy playing the quiz game.
+- As a First Time user, I want them to be able to easily navigate easily throughout the game. 
+- As a First Time user, I want them to see their score and keep motivated throughout the game. 
+- As a First Time user, I want them to easily to become a user and feel free to join the new quizzes that will be available in the near future. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**Frequent Visitor Goals**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- As a Frequent user, I would like them to be able to see the new updates and new games available. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+**Structure**
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The main structure is based on html and css coding here. Css was the trick to style and have this quiz as eye catchy as possible in order to keep the user entertained and motivated throughout the game. JS came along to make sure it makes the quiz alive, clickable and most importantly having that score board working the correct way. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Design**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Colour  
 
-------
+At first, I wanted to use a normal colour as background but then I came up with this idea of having a background of a quiz image that basically represents everything in one. In my case I wanted something eye catchy that says quiz and really catches the eyes of the user. 
+The background image used is a quiz image found on google with copy rights permission. 
 
-## FAQ about the uptime script
+- Look & feel 
 
-**Why have you added this script?**
+![image)!](../Quizgame/assets/images/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg) 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
