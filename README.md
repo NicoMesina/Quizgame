@@ -22,7 +22,7 @@ The background of this quiz is full of positive energy in my opinion as it gives
 
 **Scoreboard:** 
 
-The scoreboard was one of the most important parts as it keeps the user entertained and focused on the game itself. I wanted this score board to be simple and straight to the point giving the user the score so they can see how many questions they have answered correctly. 
+The scoreboard was one of the most important parts as it keeps the user entertained and focused on the game itself. I wanted this score board to be simple and straight to the point giving the user the score so they can see how many questions they have answered correctly. Also, for you to see how the scoreboard works please do answer the first question as answer "98.6 degrees and press submit. You will notice how the scoreboard shows you 1, which means one question is answered correctly. 
 
 **Menu navigation bar:** 
 
@@ -30,13 +30,15 @@ The menu navigation bar was an important aspect for this project as I thought it
 
 **Submit button:** 
 
-The submit button has the colour of rgb 23, 245, 245, it’s a light blue colour that almost gives the impression of a click me now to see the answer in a positive way. I did not want the user to feel negative during the game and that was the reason for this colour. In many cases users quit as soon as they see red flags everywhere and, in this case, I did not use any red negative flags for this reason. Let’s keep the user happy and entertained in a chilled positive matter. Thjis was my goal for this submit button. 
+The submit button has the colour of rgb 23, 245, 245, it’s a light blue colour that almost gives the impression of a click me now to see the answer in a positive way. I did not want the user to feel negative during the game and that was the reason for this colour. In many cases users quit as soon as they see red flags everywhere and, in this case, I did not use any red negative flags for this reason. Let’s keep the user happy and entertained in a chilled positive matter. This was my goal for the submit button. 
 
  **User Goal**
 
  - Simple to use and keep entertained 
  - Able to see the correct answers 
  - Easy to click and play 
+ - Feedback easy to submit 
+ - SignUp form easy to complete 
 
 
 
@@ -46,6 +48,8 @@ The submit button has the colour of rgb 23, 245, 245, it’s a light blue colour
 - Giving interest. 
 - Engage the viewer.
 - Have the viewer coming back to play the game 
+- Feedback easy to submit 
+- SignUp form easy to complete 
 
 
 **First Time Visitor Goals**
@@ -148,6 +152,14 @@ Making sure that the form is big enough, buttons are clickable and that the user
 
 I filled out the form, clicked all buttons inculding "remember me" all worked perfectly fine. 
 
+**Testing feature: Scoreboard**
+
+The main goal here was to have the scoreboard functioning for the correct answers only. As an example, for you to see how the scoreboard works please do answer the first question as answer "98.6 degrees and press submit. You will notice how the scoreboard shows you 1, which means one question is answered correctly. 
+
+**How did I check and the result:**
+
+I kept clicking on the correct answers to see the scoreboard in function. No errors found. 
+
 
 **How to Run this Project in your Browser**
 
@@ -195,6 +207,9 @@ I filled out the form, clicked all buttons inculding "remember me" all worked pe
 -   All Photographs were sourced from google with copy rights permission.
 
 **Link to the website:**
+
+https://nicomesina.github.io/Quizgame/
+
 
 
 
