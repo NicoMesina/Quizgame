@@ -10,7 +10,7 @@ Menu navigation bar that allows the user to leave a feed back for a better impro
 
 **Challenges faced:** 
 
-This has been a project full of emotions considering that I am a complete beginner at this. I have spent hours and hours and I am very thankful for the experience. JavaScript was defiantly much tougher than expected but to see the final result was a great joy for me. My biggest challenge was the quiz container itself, the scoreboard, and even the navigation bar. It all took time, to make sure its all functioning the correct way for the user. 
+This has been a project full of emotions considering that I am a complete beginner at this. I have spent hours and hours and I am very thankful for the experience. JavaScript was defiantly much tougher than expected but to see the final result was a great joy for me. My biggest challenge was the quiz container itself, the scoreboard, and even the navigation bar. It all took time, to make sure its all functioning the correct way for the user. Overall i am extremely proud and happy to finally have put this quiz together for you to see and i really look forward for much more to come. 
 
 **Quiz container:** 
 
